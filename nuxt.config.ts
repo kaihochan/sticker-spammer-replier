@@ -27,8 +27,14 @@ export default defineNuxtConfig({
     },
   },
 
+  nitro: {
+    prerender: {
+      routes: ['/'],
+    },
+  },
+
   runtimeConfig: {
-    app: {
+    public: {
       baseURL: '/sticker-spammer-replier/',
       buildAssetsDir: '/sticker-spammer-replier/_nuxt/'
     },
