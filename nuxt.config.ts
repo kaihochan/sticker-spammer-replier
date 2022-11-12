@@ -28,8 +28,9 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
-    public: {
+    app: {
       baseURL: '/sticker-spammer-replier/',
+      buildAssetsDir: '/sticker-spammer-replier/_nuxt/'
     },
   },
 })
