@@ -19,24 +19,12 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' },
       ],
     },
+    cdnURL: '/sticker-spammer-replier/'
   },
 
   vite: {
     define: {
       'process.env.DEBUG': false,
-    },
-  },
-
-  nitro: {
-    prerender: {
-      routes: ['/'],
-    },
-  },
-
-  runtimeConfig: {
-    public: {
-      baseURL: '/sticker-spammer-replier/',
-      buildAssetsDir: '/sticker-spammer-replier/_nuxt/'
     },
   },
 })
