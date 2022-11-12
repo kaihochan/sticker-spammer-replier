@@ -19,7 +19,8 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' },
       ],
     },
-    cdnURL: '/sticker-spammer-replier/'
+    cdnURL: '/sticker-spammer-replier/',
+    baseURL: '/sticker-spammer-replier/',
   },
 
   vite: {
